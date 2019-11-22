@@ -34,7 +34,7 @@ def conv(layer_name, x, out_channels, kernel_size=None, stride=None, is_pretrain
         x = tf.nn.bias_add(x, b, name='bias_add')
         x = tf.nn.relu(x, name='relu')
 
-        return x
+        return x 
 
 
 def pool(layer_name, x, ksize=None, stride=None, is_max_pool=True):
