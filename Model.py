@@ -240,7 +240,7 @@ def Dense_net(input_x):
     x = dense_block(input_x=x, nb_layers=48, layer_name='dense_3')
     x = transition_layer(x, scope='trans_3')
     x = dense_block(input_x=x, nb_layers=32, layer_name='dense_final')
-    # 100 Layer
+  
     x = Batch_Normalization(x, training=training, scope='linear_batch')
     x = Relu(x)
     x = Global_Average_Pooling(x)
@@ -374,13 +374,6 @@ def num_correct_prediction(logits, labels):
     return n_correct
 
 
-# !/usr/bin/env python2
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Dec 15 22:55:47 2017
-tensorflow : read my own dataset
-@author: caokai
-"""
 import numpy as np
 import tensorflow as tf
 
