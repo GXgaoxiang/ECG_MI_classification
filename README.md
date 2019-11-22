@@ -6,9 +6,9 @@ by a shallow neural network to get 12 feature maps. After concatenating those fe
 
 ## Extraction of leads
 This part consists of two steps. 
-* first step
+* First step: 
 The first step is to detect the text above each lead. This part we use the Yolo3 model implemented on github: https://github.com/qqwweee/keras-yolo3. In order to print 12 boxes better, we changed the score of output.
-* second step
+* Second step: 
 The positions of those texts are used to locate the position of each lead.
 
 The result of extraction of leads is shown in [Pictures](https://github.com/GXgaoxiang/ECG_MI_classification/tree/master/Pictures) 
