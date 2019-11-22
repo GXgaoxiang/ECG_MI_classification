@@ -135,5 +135,5 @@ def read_example():
 if __name__ == '__main__':
     imgpath = 'zengqiang_fuxian_image_zonghe/train/'
     creat_tf(imgpath)
-    # read_example()
+    # read_example() 
  
