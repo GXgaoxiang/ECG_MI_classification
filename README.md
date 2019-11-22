@@ -11,6 +11,7 @@ The first step is to detect the text above each lead. This part we use the Yolo3
 * second step
 The positions of those texts are used to locate the position of each lead.
 
+The result of extraction of leads is shown in [Pictures](https://github.com/GXgaoxiang/ECG_MI_classification/tree/master/Pictures) 
 ## Multi-branch Fusion Network
 The model we used to do the classification task.
-![Model](https://github.com/GXgaoxiang/ECG_MI_classification/picture/Model.png)
+![Model](https://github.com/GXgaoxiang/ECG_MI_classification/blob/master/Model.png)
