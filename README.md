@@ -13,4 +13,4 @@ The positions of those texts are used to locate the position of each lead.
 
 ## Multi-branch Fusion Network
 The model we used to do the classification task.
-![Model]https://github.com/GXgaoxiang/ECG_MI_classification/picture/Model.png
+![Model](https://github.com/GXgaoxiang/ECG_MI_classification/picture/Model.png)
